@@ -1,0 +1,44 @@
+body{
+    background-color: blue
+    ;
+    color: coral;
+    font-family: 'Karla', sans-serif;
+
+}
+
+#card-btn{
+    background-color: coral;
+    border: none;
+    color:aliceblue;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+#name {
+    height: 25px;
+    padding: 5px;
+}
+
+#btn-main {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.profile{
+    background-color: blueviolet;
+    border-radius: 5px;
+    border:solid coral 1px;
+    text-align: center;
+    padding: 40px;
+}
